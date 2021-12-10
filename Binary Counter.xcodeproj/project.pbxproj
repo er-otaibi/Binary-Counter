@@ -15,6 +15,8 @@
 		047D16F82761393500D1BD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D16F62761393500D1BD95 /* LaunchScreen.storyboard */; };
 		047D17032761393600D1BD95 /* Binary_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D17022761393600D1BD95 /* Binary_CounterTests.swift */; };
 		047D170E2761393600D1BD95 /* Binary_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D170D2761393600D1BD95 /* Binary_CounterUITests.swift */; };
+		048057D627638EEF00155901 /* BinaryCounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048057D527638EEF00155901 /* BinaryCounterTableViewCell.swift */; };
+		048057D82763903900155901 /* BinaryCounterCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048057D72763903900155901 /* BinaryCounterCellDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		047D17092761393600D1BD95 /* Binary CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047D170D2761393600D1BD95 /* Binary_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_CounterUITests.swift; sourceTree = "<group>"; };
 		047D170F2761393600D1BD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048057D527638EEF00155901 /* BinaryCounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterTableViewCell.swift; sourceTree = "<group>"; };
+		048057D72763903900155901 /* BinaryCounterCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterCellDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				047D16ED2761393200D1BD95 /* SceneDelegate.swift */,
 				047D16EF2761393200D1BD95 /* ViewController.swift */,
 				047D16F12761393200D1BD95 /* Main.storyboard */,
+				048057D527638EEF00155901 /* BinaryCounterTableViewCell.swift */,
+				048057D72763903900155901 /* BinaryCounterCellDelegate.swift */,
 				047D16F42761393500D1BD95 /* Assets.xcassets */,
 				047D16F62761393500D1BD95 /* LaunchScreen.storyboard */,
 				047D16F92761393500D1BD95 /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				047D16F02761393200D1BD95 /* ViewController.swift in Sources */,
 				047D16EC2761393200D1BD95 /* AppDelegate.swift in Sources */,
+				048057D627638EEF00155901 /* BinaryCounterTableViewCell.swift in Sources */,
+				048057D82763903900155901 /* BinaryCounterCellDelegate.swift in Sources */,
 				047D16EE2761393200D1BD95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
